@@ -1,0 +1,27 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sem título</title>
+<script src="actPage.js"></script>
+<style>
+	li.yes a{
+		text-decoration:none;
+		color:#00FF7C;
+	}
+</style>
+</head>
+<body>
+<ul id="navega">
+	<li><a href="1.html">Um</a></li>
+    <li><a href="2.html">Dois</a></li>
+    <li><a href="3.html">Três</a></li>
+    <li><a href="4.html">Quatro</a></li>
+    <li><a href="5.html">Cinco</a></li>
+    <li><a href="6.html">Seis</a></li>
+</ul>
+<script>
+	var roda= document.getElementsByTagName("body")[0].addEventListener("onload", trocaClasse(document.getElementById("navega").childNodes));
+</script>
+</body>
+</html>
